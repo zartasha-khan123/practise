@@ -74,7 +74,7 @@ export default function SignupForm() {
   {/* Left Section: Image */}
   <div className="flex-shrink-0">
     <Image
-      src="/Side Image.png"
+      src="/image.png"
       width={805}
       height={781}
       alt="main"

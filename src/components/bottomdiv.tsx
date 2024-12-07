@@ -68,7 +68,7 @@ export default function Bottomdiv() {
         <div className="text-center max-w-xs">
           <div className="flex justify-center mb-4">
             <Image
-              src="/services.png"
+              src="/Services.png"
               alt="Free and Fast Delivery"
               width={80}
               height={80}
@@ -87,7 +87,7 @@ export default function Bottomdiv() {
         <div className="text-center max-w-xs">
           <div className="flex justify-center mb-4">
             <Image
-              src="/services1.png"
+              src="/Services1.png"
               alt="24/7 Customer Service"
               width={80}
               height={80}
@@ -106,7 +106,7 @@ export default function Bottomdiv() {
         <div className="text-center max-w-xs">
           <div className="flex justify-center mb-4">
             <Image
-              src="/services2.png"
+              src="/Services2.png"
               alt="Money Back Guarantee"
               width={80}
               height={80}

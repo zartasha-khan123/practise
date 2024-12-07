@@ -132,7 +132,7 @@ export default function SignupForm() {
           type="button"
           className="w-full py-3 bg-gray-200 text-black rounded-lg flex items-center justify-center gap-2 hover:bg-gray-300"
         >
-          <img src="/Icon-Google.png" alt="Google" className="w-5 h-5" />
+          <Image src="/Icon-Google.png" alt="Google" className="w-5 h-5" />
           Sign up with Google
         </button>
       </div>

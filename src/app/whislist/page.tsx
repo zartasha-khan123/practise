@@ -168,7 +168,7 @@ import { Card } from '@/components/ui/card';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Eye, Heart, ShoppingCart, Star, Trash2 } from 'lucide-react';
+import { Eye, Heart, Star, Trash2 } from 'lucide-react';
 
 function Whishlist() {
   return (

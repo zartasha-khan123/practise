@@ -4,7 +4,7 @@ import { Card } from './ui/card'
 import Image from 'next/image'
 import { Button } from './ui/button'
 import { Badge } from './ui/badge'
-import { Eye, Heart, ShoppingCart, Star, Trash2 } from 'lucide-react'
+import { Eye, Heart, Star, Trash2 } from 'lucide-react'
 import { FlashCardInterface } from '@/constant/flashcrads'
 
 function ProductCard({loop}:{loop:FlashCardInterface[]}) {
@@ -65,7 +65,7 @@ function ProductCard({loop}:{loop:FlashCardInterface[]}) {
   <div className='flex gap-1  items-center'>
     {[...Array(item.star)].map(()=>{
       return (
-        <Star size={20} fill='#FFAD33'color='#FFAD33'/>
+        <Star size={20} fill='#FFAD33'color='#FFAD33' key={index}/>
       )
     })}
 

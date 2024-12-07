@@ -269,7 +269,7 @@ function NewArrivals() {
                     className="absolute right-0 top-0 object-cover"
                   />
                   <div className="absolute top-1/2 transform -translate-y-1/2 left-4 lg:left-6 space-y-4">
-                    <h2 className="text-lg md:text-2xl font-semibold">Women's Collections</h2>
+                    <h2 className="text-lg md:text-2xl font-semibold">Women&apos;s Collections</h2>
                     <p className="text-sm md:text-base text-gray-200">
                       Featured woman collections that give you another vibe.
                     </p>

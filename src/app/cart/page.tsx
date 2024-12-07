@@ -165,6 +165,7 @@ import { useState } from "react"
 import { X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Image from "next/image"
 import {
   Table,
   TableBody,
@@ -240,7 +241,7 @@ export default function ShoppingCart() {
                   <X className="h-4 w-4 text-white" />
                 </button>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.name}
                     className="h-[54px] w-[54px] rounded object-cover"

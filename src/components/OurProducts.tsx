@@ -262,7 +262,7 @@ function OurProducts() {
           </div>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-[30px] mt-[30px] md:mt-[60px]">
+        <div className="w-full grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-[30px] mt-[30px] md:mt-[60px]">
           {productArray.map((item, index) => (
             <Card className="w-full h-full overflow-hidden" key={index}>
               {/* Top image */}
